@@ -150,7 +150,7 @@ item(
     // icon
     image=image.res(`"C:\\Program Files\\Neovim\\bin\\nvim.exe`")
     cmd='wt.exe'
-    args='nvim `"@sel.path`"'
+    args='nvim "@sel.path"'
     admin='true' // 管理员权限
     sep='top'
 )
