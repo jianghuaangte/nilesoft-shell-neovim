@@ -150,7 +150,7 @@ item(
     // icon
     image=image.res(`"C:\\Program Files\\Neovim\\bin\\nvim.exe`")
     cmd='wezterm-gui'
-    args='start -- nvim "@sel.path"'
+    args='start -- nvim "`@sel.path`"'
     admin='true' // 管理员权限
     sep='top'
 )
